@@ -1,8 +1,8 @@
-//ÓĞĞ§×ÖÄ¸ÒìÎ»´Ê
+//æœ‰æ•ˆå­—æ¯å¼‚ä½è¯
 #include<iostream>
 #include<string>
 using namespace std;
-bool zero(int a[26]) {//ÅĞ¶ÏÊı×éÖĞÔªËØÊÇ·ñ¾ùÎªÁã£¬Ó¦¸ÃÓĞ¸üºÃµÄ·½·¨°É£¬ÔİÊ±Ã»Ïëµ½
+bool zero(int a[26]) {//åˆ¤æ–­æ•°ç»„ä¸­å…ƒç´ æ˜¯å¦å‡ä¸ºé›¶ï¼Œåº”è¯¥æœ‰æ›´å¥½çš„æ–¹æ³•å§ï¼Œæš‚æ—¶æ²¡æƒ³åˆ°
 	for (int i = 0;i < 26;i++) {
 		if (a[i] == 0) continue;
 		else return false;
@@ -29,7 +29,8 @@ int main() {
 	cin >> s;
 	cin >> t;
 	if (judge(s,t))
-		cout << "ÊÇÒìÎ»´Ê" << endl;
+		cout << "æ˜¯å¼‚ä½è¯" << endl;
 	else
-		cout << "²»ÊÇÒìÎ»´Ê" << endl;
+		cout << "ä¸æ˜¯å¼‚ä½è¯" << endl;
+        return 0;
 }
