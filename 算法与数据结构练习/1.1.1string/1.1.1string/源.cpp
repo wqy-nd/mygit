@@ -1,4 +1,4 @@
-//×Ö·û´®µ¹ÖÃ
+//å­—ç¬¦ä¸²å€’ç½®
 #include<iostream>
 #include<string>
 #define N 100
@@ -9,8 +9,8 @@ void function(char s[N]) {
 	int len;
 	len = strlen(s);
 	tail = head + len - 1;
-	//½»»»ºóÖ¸ÕëÏòÖĞ¼äÒÆ¶¯Ö±ÖÁÏàÓö»ò½»´í½áÊø
-	while (head <= tail) {
+	//äº¤æ¢åæŒ‡é’ˆå‘ä¸­é—´ç§»åŠ¨ç›´è‡³ç›¸é‡æˆ–äº¤é”™ç»“æŸ
+	while (head < tail) {
 		temp = *head;
 		*head = *tail;
 		*tail = temp;
